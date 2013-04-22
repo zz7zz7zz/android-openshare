@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <LinearLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:gravity="center_vertical"
+     android:padding="5dp"
+     android:orientation="horizontal" >
+	<ImageView 
+         android:id="@+id/open_platform_logo"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content" 	
+         android:layout_marginRight="5dp"    
+	    />
+     <TextView
+         android:id="@+id/open_platform_name"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content" 
+         android:minWidth="80.0dip"
+    	android:textSize="16.5sp"
+        android:textColor="#6f5f50"           
+         />
+
+     <TextView
+         android:id="@+id/open_account_username"
+         android:layout_width="match_parent"
+         android:layout_height="fill_parent" 
+         android:layout_weight="1"
+         android:gravity="center_vertical"
+         android:textColor="#b1a79d"
+         android:textSize="13sp" 
+         android:ellipsize="end"
+         android:singleLine="true"/>
+
+     <Button
+         android:id="@+id/open_bindBtn"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:minWidth="60dp"
+    	android:textSize="16.5sp"
+        android:shadowColor="#ffffff"
+        android:shadowDx="1"
+        android:shadowDy="0.0"
+        android:shadowRadius="0.1"
+        android:textColor="#6f5f50"           
+         />
+ </LinearLayout>

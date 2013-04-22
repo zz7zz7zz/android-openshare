@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.openshare.demo"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+	<!--读写权限权限 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<!-- 获取系统应用状态权限 -->  
+    <uses-permission android:name="android.permission.GET_TASKS" />
+	<!-- 访问网络的权限 -->  
+    <uses-permission android:name="android.permission.INTERNET" />  
+    <!-- 访问网络状态的权限 -->  
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />  
+    <!-- 访问WIFI网络状态的权限 -->  
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />  
+    <!-- 改变WIFI网络状态的权限 -->  
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />  
+    <!-- 读取电话状态的权限 -->  
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />  
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>     
+   
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:name=".util.OpenDemoApp">
+        <activity
+            android:name="com.openshare.demo.OpenUI"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        
+         <activity
+            android:name="com.open.share.AuthorizeActivity"
+            android:windowSoftInputMode="adjustResize|stateHidden"
+            android:screenOrientation="portrait"/>
+            
+         <!-- QQ空间 -->
+         <activity
+	       android:name="com.tencent.tauth.AuthActivity"
+	       android:noHistory="true"
+	       android:launchMode="singleTask" >
+	    <intent-filter>
+	           <action android:name="android.intent.action.VIEW" />
+	       	<category android:name="android.intent.category.DEFAULT" />
+	       	<category android:name="android.intent.category.BROWSABLE" />
+	           <data android:scheme="tencent100282939" />
+	    </intent-filter>
+	  </activity>
+ 
+        <!-- 微信接入 -->
+       <activity
+            android:name=".wxapi.WXEntryActivity"
+            android:exported="true">
+        </activity>
+        
+        <receiver
+            android:name=".wxapi.AppRegister"
+            android:permission="com.tencent.mm.plugin.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.tencent.mm.plugin.openapi.Intent.ACTION_REFRESH_WXAPP" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

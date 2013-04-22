@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="open_share_loading">数据加载中,请稍后!</string>
+    
+    <!-- 第三方名字-->
+	<string name="open_name_sina">新浪微博</string>
+	<string name="open_name_tencent">腾讯微博</string>
+	<string name="open_name_renren">人人网</string>
+	<string name="open_name_qqzone">QQ空间</string>
+	<string name="open_name_douban">豆瓣</string>
+	<string name="open_name_weixin">微信</string>
+	<string name="open_name_facebook">Facebook</string>
+	<string name="open_name_twitter">Twitter</string>
+	<string name="open_name_myspace">Myspace</string>
+	<string name="open_name_moka">摩卡时光</string>
+	
+	<!-- 第三方保存文件-->
+	<string name="sp_name_sina">openshare_sina</string>
+	<string name="sp_name_tencent">openshare_tencent</string>
+	<string name="sp_name_renren">openshare_renren</string>
+	<string name="sp_name_qqzone">openshare_qqzone</string>
+	<string name="sp_name_douban">openshare_douban</string>
+	<string name="sp_name_weixin">openshare_weixin</string>
+	<string name="sp_name_facebook">openshare_facebook</string>
+	<string name="sp_name_twitter">openshare_twitter</string>
+	<string name="sp_name_myspace">openshare_myspace</string>
+	<string name="sp_name_moka">openshare_moka</string>   
+	
+	<!-- 微信分享 -->
+    <string name="weixin_errcode_success">发送成功</string>
+	<string name="weixin_errcode_cancel">发送取消</string>
+	<string name="weixin_errcode_deny">发送被拒绝</string>
+	<string name="weixin_errcode_unknown">发送返回</string>
+</resources>
