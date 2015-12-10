@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">git_openshare_demo</string>
+    <string name="app_name">git_openshare</string>
 
     <string name="shareMgr_bind">绑定</string> 
     <string name="shareMgr_nobind">未绑定</string> 
