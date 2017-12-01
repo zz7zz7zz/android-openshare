@@ -8,11 +8,14 @@ Android Openshare
 
 ## 二、效果展示 
 
-![github](http://img.blog.csdn.net/20130930090728046 "附图一")  
+<img width="400" height="640" src="http://img.blog.csdn.net/20130930090728046"/>
 
 
 
 
 [欢迎访问我的CSDN博客](http://blog.csdn.net/zz7zz7zz)<br/>
+
+
+
 
 
