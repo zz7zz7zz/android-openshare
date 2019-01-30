@@ -8,7 +8,7 @@ Android openshare
 
 ## 二、效果展示 
 
-<img width="400" height="640" src="http://img.blog.csdn.net/20130930090728046"/>
+<img width="400" height="640" src="https://github.com/zz7zz7zz/android-openshare/blob/master/1.jpg"/>
 
 
 
